@@ -1,2 +1,0 @@
-# Yudale
-Money exchange webapp
