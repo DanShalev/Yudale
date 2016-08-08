@@ -1,0 +1,171 @@
+/*THEME LIST
+a - greenyellow
+b - RUGULAR blue & white
+c - red
+d - green
+e - yellow
+f - gray //THEME FOR "NO RECORDS"
+G - greenyellow for COLOR SWITCH
+H - brown (for add - history)
+*/
+
+/*GENERAL STYLE FOR APP*/
+* {
+    -webkit-touch-callout: none;/*PREVENTS OPENING MENE (LIKE SAVE PHOTO, ETC)*/
+    -webkit-text-size-adjust: 100%; /*PREVENTS RESIZING TEXT*/
+}
+.instructions {
+    -webkit-user-select: text;
+}
+/*END GENERAL STYLE*/
+
+/*ADD RECTANGLE LOOK TO ADD BUTTON IN HEADER*/
+#plus_header_button, #plus_header_button:after,
+#back_header_button, #back_header_button:after {
+    moz-border-radius: 0 px;
+    -webkit-border-radius:  0px;
+    border-radius: 0px;
+}
+
+/*ADD DEBT BUTTON*/
+#submit_addDebt:after,
+#submit_addDebt:after {
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*LOG-FILE COLLAPSIBLE*/
+.collapsible_plus .ui-icon-plus:after,
+.collapsible_plus .ui-icon-minus:after{
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*ABOUT COLLAPSIBLE*/
+.collapsible_arrow .ui-icon-arrow-r:after,
+.collapsible_arrow .ui-icon-arrow-d:after{
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*LOGO CSS​*/
+#mainlogo {
+    height: 32px;
+    width: 187px;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+/*MENU CSS*/
+#panel_username:hover, #panel_username:active,
+#panel_username:visited, #panel_username:link{
+    color: #333333;
+    background-color: #eaedd9;
+    cursor: default;
+    text-shadow: none;
+}
+
+
+#panel_username, #main_panel {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.ui-panel-inner { padding-top: 0 !important }
+
+/*NAVBAR*/
+#debt_tab a:hover {
+    background-color: #c1d45e;
+}
+
+/*DIV BOXEX*/
+#login_box {
+    border: 2px solid #c1d45e;
+    moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#padding_box {
+    padding: 5px;
+    margin: 5px;
+}
+
+#account_settings_box {
+    border: 2px solid #c1d45e;
+    moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#submit_login {
+    margin-top: 20px;
+}
+
+/*VALIDATE BUTTONS*/
+.error_icon {
+    width: 13px;
+    height: 13px;
+}
+
+.success_icon {
+    width: 13px;
+    height: 13px;
+}
+
+/*DEBT STATUS*/
+.debt_status {
+    padding-top: 17px;
+    /* margin-right: 10px;*/
+    width: 42px;
+    float: right;
+}
+
+/*DEBTS*/
+#debtSummary_date {
+    position: absolute;
+    right:8px;
+}
+
+form { display: inline; }
+
+
+/*LOG FILE LISTDIVIDER*/
+.listdivider_top { /*lf = log_file*/
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+
+.collapsible_middle {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.collapsible_bottom {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.rotate_icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+}
+
+/*DEBTS FOOTER*/
+.footer_bubble {
+    color: #333333;
+    background-color: #cfd4b8;
+    border: none;
+    padding-top: 3px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<logfile>
+  <debt>
+    <action_user>dan</action_user>
+    <action>confirm</action>
+    <user>dan</user>
+    <owe_to>amir</owe_to>
+    <date>
+      <day>18</day>
+      <month>03</month>
+      <year>2014</year>
+      <time>16:20</time>
+    </date>
+    <details>
+      <amount>222</amount>
+      <currency>&#x20AA;</currency>
+      <debt_date>05.03.2014</debt_date>
+    </details>
+  </debt>
+</logfile>
